@@ -110,6 +110,9 @@ dotnet run
 | PUT    | `/api/v1/vagas/{id}`         | Atualiza uma vaga          |
 | DELETE | `/api/v1/vagas/{id}`         | Remove uma vaga            |
 
+---
+### ⚠️ Instruções para testar o swagger
+Ao realizar o POST de usuário em seguida realize o AUTH utilizando o email e a senha cadastradas, copie o Token sem aspas e outras escritas além dele. 
 
 ---
 ## 📧 Testes Swagger 
