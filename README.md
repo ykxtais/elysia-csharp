@@ -38,7 +38,7 @@ http://localhost:5243/swagger/index.html
 
 ### 1. Clone o repositório
 ```text
-git clone https://github.com/Irissuu/Csharp_Elysia.git
+git clone https://github.com/ykxtais/elysia-csharp.git
 ```
 
 ### 2. Restaure dependências
