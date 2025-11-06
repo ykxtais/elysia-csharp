@@ -122,9 +122,9 @@ Ao realizar o POST de usuário em seguida realize o AUTH utilizando o email e a 
 ```text
 {
   "nome": "Maria Eduarda Silva",
-  "cpf": "45879612348",
   "email": "maria@gmail.com",
-  "senha": "chokito"
+  "senha": "chokito",
+  "cpf": "45879612348"
 }
 ```
 
@@ -142,7 +142,8 @@ Ao realizar o POST de usuário em seguida realize o AUTH utilizando o email e a 
 {
   "nome": "Maria Eduarda Silva",
   "email": "maria@gmail.com",
-  "senha": "DORITOS"
+  "senha": "DORITOS",
+  "cpf": "45879612348"
 }
 ```
 
@@ -150,7 +151,7 @@ Ao realizar o POST de usuário em seguida realize o AUTH utilizando o email e a 
 ### POST /api/v1/motos
 ```text
 {
-  "placa": "ABC1D34",
+  "placa": "GHS7R85",
   "marca": "Honda",
   "modelo": "CG 160",
   "ano": 2022
@@ -160,7 +161,7 @@ Ao realizar o POST de usuário em seguida realize o AUTH utilizando o email e a 
 ### PUT /api/v1/motos/{id}
 ```text
 {
-  "placa": "ABC1D34",
+  "placa": "GHS7R85",
   "marca": "Honda",
   "modelo": "CG 160 FAN",
   "ano": 2023
@@ -171,16 +172,18 @@ Ao realizar o POST de usuário em seguida realize o AUTH utilizando o email e a 
 ### POST /api/v1/vagas
 ```text
 {
-  "patio": "ITAQUERA",
-  "codigoVaga": "VAGA-19"
+  "status": "ocupada",
+  "numero": 1,
+  "patio": "A"
 }
 ```
 
 ### PUT /api/v1/vagas/{id}
 ```text
 {
-  "patio": "ITAQUERA",
-  "codigoVaga": "VAGA-19-B"
+  "status": "livre",
+  "numero": 1,
+  "patio": "A"
 }
 ```
 ---
