@@ -33,6 +33,10 @@ Permite gerenciar Motos, Usuários e Vagas com persistência em Oracle e autenti
 ```text
 http://localhost:5243/swagger/index.html
 ```
+### ⚠️ Comando para gerar sua JWT Key no PowerShell
+```text
+[Convert]::ToBase64String((1..32 | ForEach-Object { Get-Random -Minimum 0 -Maximum 256 }))
+```
 
 ---
 
